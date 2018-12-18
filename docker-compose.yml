@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+  app:
+    image: node:11-alpine
+    volumes:
+      - ./:/app
+    ports:
+      - 9108:80
+    working_dir: /app
+    command: node index.js
+    networks:
+      - compose-verification-net
+
+  mongo:
+    image: mongo
+    networks:
+      - compose-verification-net
+
+networks:
+  compose-verification-net:

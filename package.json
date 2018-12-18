@@ -1,0 +1,23 @@
+{
+  "name": "docker-compose-test-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michailw/docker-training.git"
+  },
+  "author": "Michal Wojtowicz <poczta@mwojtowicz.it>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michailw/docker-training/issues"
+  },
+  "homepage": "https://github.com/michailw/docker-training#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.0"
+  }
+}
