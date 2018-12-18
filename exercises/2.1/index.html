@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Hello World!</title>
+</head>
+<body>
+<h1>Hello World!</h1>
+<h2>You have configured your Docker container</h2>
+<h3>This is part of Docker Workshop</h3>
+<h4>Current time is:</h4>
+<div id="time"></div>
+<script type="text/javascript">
+    function showTime() {
+		var date = new Date();
+		var n = date.toDateString();
+		var time = date.toLocaleTimeString();
+		document.getElementById('time').innerHTML = n + ' ' + time;
+    }
+	showTime();
+    setInterval(showTime, 1000);
+</script>
+</body>
+</html>
