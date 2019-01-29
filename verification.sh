@@ -2,7 +2,7 @@
 
 LOGFILE="verification_"$(date +%Y-%m-%d_%H:%M:%S)".log"
 echo "Welcome in verification script"
-echo "If we'll found any issues, they will be logged in file ${LOGFILE}"
+echo "If we find any issues they will be logged into file ${LOGFILE}"
 echo "Please send this file to your tutor if you face any issues"
 echo
 
