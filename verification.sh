@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # This variable fixes mounts on Windows when user runs script with git-bash
-MSYS_NO_PATHCONV=1
+export MSYS_NO_PATHCONV=1
 
 LOGFILE="verification_"$(date +%Y-%m-%d_%H:%M:%S)".log"
 echo "Welcome in verification script"
