@@ -90,3 +90,9 @@ https://blogs.msdn.microsoft.com/stevelasker/2016/06/14/configuring-docker-for-w
 
 Sometimes also your firewall may block file sharing.
 Docker will point it out as a popup message, with a link to documentation describing how to solve it.
+
+If you still face issues with shared drives, try to run this command using PowerShell with Admin rights:
+
+```
+Set-NetConnectionProfile -interfacealias "vEthernet (DockerNAT)" -NetworkCategory Private
+```
