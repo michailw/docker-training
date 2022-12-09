@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/michailw/docker-training#readme",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "mongoose": "^5.4.0"
   }
 }
